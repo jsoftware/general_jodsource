@@ -1,13 +1,13 @@
 NB. manifest for JODSOURCE
-CAPTION=: 'JOD Object Dictionary Source'
-VERSION=: '0.3.5'
-PLATFORMS=: 'win'      
-LABCATEGORY=: 'General'
+CAPTION=:'JOD Object Dictionary Source'
+VERSION=:'0.3.7'
+PLATFORMS=:'win'      
+LABCATEGORY=:'General'
 FILES=: 0 : 0
 manifest.ijs
 jodsource.zip
 )
-RELEASE=: 'j601 j602'
+RELEASE=:'j601 j602'
 DESCRIPTION=: 0 : 0
 (jodsource.zip) is an archive containing serialized dump
 versions of the three JOD dictionary databases that are
