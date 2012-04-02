@@ -1,7 +1,7 @@
 NB. manifest for JODSOURCE
 CAPTION=:'JOD Object Dictionary Source'
 VERSION=:'0.9.70'
-PLATFORMS=:'win linux'      
+PLATFORMS=:''      
 LABCATEGORY=:'General'
 FILES=: 0 : 0
 manifest.ijs
