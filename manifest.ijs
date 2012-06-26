@@ -1,7 +1,7 @@
 NB. manifest for JODSOURCE
 CAPTION=:'JOD Object Dictionary Source'
-VERSION=:'0.9.70'
-PLATFORMS=:''      
+VERSION=:'0.9.75'
+PLATFORMS=:'win linux darwin'
 LABCATEGORY=:'General'
 FILES=: 0 : 0
 manifest.ijs
@@ -27,12 +27,19 @@ JOD source dictionaries in (jodsource.zip) can be set up in two ways:
    This is the recommended method.  (jodsourcesetup.ijs) has been
    checked on Windows j6.02, j7.01 and linux j7.01  32 bit systems.
    NOTE: It can take a minute or so to run.
+   
+   WARNING: (jodsourcesetup) uses arc/zip which fails on 64 bit
+   systems. See the JOD Page
+   
+   http://bakerjd99.wordpress.com/the-jod-page/
+   
+   for a work-around for 64 bit systems.
 
 2) Run the JOD lab "JOD Source Code Dump Scripts." 
    JOD labs are in the general lab category.
 
    JOD labs have not been made completely portable between
-   Windows and Linux.  This lab works on Windows and it
+   Windows, Linux and the Mac.  This lab works on Windows and it
    will work on Linux as well: provided you do not have
    any extant JOD dictionaries.
 
