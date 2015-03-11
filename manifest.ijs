@@ -1,6 +1,6 @@
 NB. manifest for JODSOURCE
 CAPTION=:'JOD Object Dictionary Source'
-VERSION=:'0.9.95'
+VERSION=: '0.9.96'
 PLATFORMS=:'win linux darwin'
 LABCATEGORY=:'General'
 FILES=: 0 : 0
@@ -8,7 +8,7 @@ manifest.ijs
 jodsource.zip
 jodsourcesetup.ijs
 )
-RELEASE=:'j601 j602 j701 j801 j802 j803'
+RELEASE=: 'j601 j602 j701 j801 j802 j803 j804'
 DEPENDS=: 0 : 0
 general/jod
 arc/zip
