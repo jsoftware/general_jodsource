@@ -1,54 +1,51 @@
 NB. manifest for JODSOURCE
 CAPTION=:'JOD Object Dictionary Source'
-VERSION=: '0.9.96'
+VERSION=:'0.9.97'
 PLATFORMS=:'win linux darwin'
 LABCATEGORY=:'General'
 FILES=: 0 : 0
 manifest.ijs
-jodsource.zip
+joddev.ijs
+jod.ijs
+utils.ijs
 jodsourcesetup.ijs
 )
-RELEASE=: 'j601 j602 j701 j801 j802 j803 j804'
+RELEASE=:'j601 j602 j701 j801 j802 j803 j804'
 DEPENDS=: 0 : 0
 general/jod
-arc/zip
 )
 DESCRIPTION=: 0 : 0
-(jodsource.zip) is an archive containing serialized dump
-versions of the three JOD dictionary databases (joddev,jod,utils)
-that are used to build the JOD system. JOD system dictionaries are
-good examples of how JOD can be used to build complex J systems.
+(jodsource) contains serialized dictionary dump scripts 
+(joddev,jod,utils). These dump scripts contain all the
+code, test cases, build scripts, and documentation used
+to develop and maintain JOD and related systems.
 
-J 7.0x/8.0x JOD requires the following addons:
+Dump scripts are large J scripts that load dictionary
+objects into JOD dictionaries when run.
 
-  data/jfiles
-  arc/zip
+JOD system dictionaries are good examples of how JOD 
+can be used to build complex J systems.
 
-JOD source dictionaries in (jodsource.zip) can be set up in three ways:
+J 7.0x/8.0x JOD requires the (data/jfiles) addon. Prior 
+versions of J make (jfiles) available from system scripts.
 
-1) Run the J script ~addons/general/jodsource/jodsourcesetup.ijs
+JOD source dictionaries can be set up in two ways:
 
-   This is the recommended method for 32 bit systems. (jodsourcesetup.ijs) has been
-   checked on Windows j6.02, j7.01, j8.02 and linux and Mac j7.01 32 bit systems.
-   NOTE: It can take a minute or so to run.
+1) Run the J script 
 
-   WARNING: (jodsourcesetup) uses arc/zip which fails on 64 bit systems see:
+   ~addons/general/jodsource/jodsourcesetup.ijs
 
-   https://github.com/bakerjd99/joddumps
+   This is the recommended method. (jodsourcesetup.ijs) 
+   can take a minute or so to run.
+ 
+2) Run the JOD lab "JOD Source Code Dump Scripts." 
+   JOD labs are in the (General) lab category. If you
+   do not see JOD labs listed on the Lab menus use the Lab
+   browse button to access:
 
-   for a work-around for 64 bit systems.
+   ~addons/general/jod/jodlabs
 
-   More information is available on the JOD Page at:
-
+More information is available on the JOD Page at:
+  
    http://bakerjd99.wordpress.com/the-jod-page/
-
-2) Run the JOD lab "JOD Source Code Dump Scripts."
-   JOD labs are in the general lab category.
-
-3) Fetch the files in (jodsource.zip) from GitHub at:
-
-   https://github.com/bakerjd99/jod/tree/master/jodsource
-
-
-bakerjd99@gmail.com
 )
