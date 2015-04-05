@@ -67,10 +67,14 @@ if. 1 e. dicts e. od '' do.
   smoutput 'ERROR: some JOD development dictionaries exist' return.
 end.
 
-jodroot=. '/jodroot/'
-if. IFWIN do. jodroot=. 'c:',jodroot 
-else. 
-  jodroot=. (LF -.~ host 'echo $HOME'),jodroot 
+NB. if a JODroot folder is defined use it
+if. '~'={.jodroot=. jpath '~JODroot/' do.  
+  NB. otherise use this default 
+  jodroot=. '/jodroot/' 
+  if. IFWIN do. jodroot=. 'c:',jodroot 
+  else. 
+    jodroot=. (LF -.~ host 'echo $HOME'),jodroot 
+  end.
 end.
 
 if. 0 = #1 dir jodroot do.
