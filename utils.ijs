@@ -78,7 +78,7 @@ NB.
 NB. verbatim:
 NB.
 NB. from J Wiki:
-NB. http://www.jsoftware.com/jwiki/Essays/Primality_Tests#20081031001648
+NB. http://code.jsoftware.com/wiki/Essays/Primality_Tests#20081031001648
 NB.
 NB. monad:  pa =. MillerRabin ia | Xa
 NB.
@@ -2103,7 +2103,7 @@ NB. From the J Wiki due to Evart Shaw.
 NB.
 NB. verbatim
 NB. 
-NB.  http://www.jsoftware.com/jwiki/Essays/t-Distribution%20CDF
+NB.  http://code.jsoftware.com/wiki/Essays/t-Distribution%20CDF
 NB.
 NB. dyad:  fu =. iaDf tcdf nuY
 NB.
