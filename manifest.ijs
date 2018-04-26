@@ -10,7 +10,10 @@ jod.ijs
 utils.ijs
 jodsourcesetup.ijs
 )
-RELEASE=: 'j601 j602 j701 j801 j802 j803 j804 j805 j806 j807'
+RELEASE=: ''
+
+FOLDER=: 'general/jodsource'
+
 DEPENDS=: 0 : 0
 general/jod
 )
