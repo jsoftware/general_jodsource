@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 14 Oct 2018 11:50:01
-NB. Generated with JOD version; 0.9.996; 40; 14 Oct 2018 11:27:55
-NB. J version: j807/j64/windows/release/commercial/www.jsoftware.com/2018-10-05T10:39:42
+NB. JOD dictionary dump: 14 Feb 2019 22:32:20
+NB. Generated with JOD version; 0.9.998; 21; 14 Feb 2019 18:31:34
+NB. J version: j807/j64/windows/release-b/commercial/www.jsoftware.com/2019-01-22T18:51:16
 NB.
 NB. Names & DidNums on current path
 NB. +---+---------------------------------------+
