@@ -1,6 +1,6 @@
-NB. JOD dictionary dump: 29 Aug 2019 14:36:38
-NB. Generated with JOD version; 0.9.999; 4; 29 Aug 2019 13:42:36
-NB. J version: j901/j64avx/windows/beta-i/commercial/www.jsoftware.com/2019-08-29T09:48:23
+NB. JOD dictionary dump: 09 Dec 2019 11:02:41
+NB. Generated with JOD version; 1.0.0; 32; 09 Dec 2019 09:24:19
+NB. J version: j901/j64avx/windows/beta-s/commercial/www.jsoftware.com/2019-12-02T12:51:33
 NB.
 NB. Names & DidNums on current path
 NB. +---+---------------------------------------+
@@ -127,7 +127,7 @@ DOCUMENTMARKS=:;:'author:created:dyad:monad:verbatim:rootwords:'
 
 DODEPENDENTS=:1
 
-DPATH=:i.0 4
+DPATH=:0 4$00
 
 DPLIMIT=:32
 
