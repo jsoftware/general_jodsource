@@ -1,6 +1,6 @@
 NB. manifest for JODSOURCE
 CAPTION=:'JOD Object Dictionary Source'
-VERSION=:'1.0.23'
+VERSION=:'1.0.24'
 FOLDER=:'general/jodsource'
 PLATFORMS=:'win linux darwin'
 LABCATEGORY=:'General'
